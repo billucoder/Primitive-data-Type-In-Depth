@@ -6,9 +6,9 @@ public class BiNumber { //Class Name
     private int number2; //Member Variable
 
     //Constructor always starts with class name
-   public BiNumber (int Number1, int Number2){
-       this.number1 = number1;
-       this.number2 = number2;
+   BiNumber (int num1, int num2){
+       this.number1 = num1;
+       this.number2 = num2;
     }
 
     //Method -
@@ -18,19 +18,19 @@ public class BiNumber { //Class Name
     }
 
     public int getNumber2() {
-        return number2;
+        return this.number2;
     }
 //input - add
 
     public int getNumber1() {
-        return number1;
+        return this.number1;
     }
     //output -void
     //Name -
 
     public int add(){
 
-      return number1+number2;
+      return this.number1+this.number2;
     }
 
     public int multiply() {

@@ -12,3 +12,4 @@ public class SimpleInterestCalculatorRunner {
         System.out.println(totalValue);
     }
 }
+ //principal
